@@ -1,0 +1,20 @@
+.area{
+  background: #f98b14;
+  font-weight: bold;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  background: #3976f0;
+
+}
+
+.cardContent{
+  border: 3px solid #3976f0;
+  min-width: 30%;
+  margin: 5px;
+  padding: 5px;
+  background: #e2ef33;
+  font-weight: bold;
+}
