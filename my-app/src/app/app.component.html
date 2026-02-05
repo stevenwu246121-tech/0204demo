@@ -1,0 +1,34 @@
+<p>brr-demo</p>
+<!-- @for(data of brr;track $index){
+  <p>{{data}}</p>
+} -->
+
+@if (true){
+  <h3>顯示true</h3>
+}@else {
+  <h3>顯示false</h3>
+}
+
+
+
+
+
+<!-- @for(data of arrData3;track data.id){
+  @for(user of data.userData; track user.userId){
+    <h3>{{user.userId}}</h3>
+  }
+} -->
+<!--@for(data of userArr;track $index){
+<div class="div-border">
+  <h1 class="container">{{data.userName}}</h1>
+  <p class="item">擁有道具:</p>
+ @for(data2 of data.props;track $index){
+  <ul>
+  <li class="amount">{{data2.propsName}}<span>數量:{{data2.amount}}</span>
+  </ul>
+}
+</div> -->
+
+
+
+<router-outlet />
